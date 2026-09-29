@@ -1,0 +1,20 @@
+# Qt 编译生成的目录（拦截所有子目录下的 build-* 文件夹）
+build-*/
+
+# C/C++ 编译产物
+*.o
+*.so
+*.a
+*.exe
+
+# Qt 生成的文件
+moc_*.cpp
+moc_*.h
+ui_*.h
+
+# Qt Creator 个人配置和临时文件
+*.pro.user
+*.autosave
+
+# 临时文件
+*.log
